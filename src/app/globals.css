@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -- new message shaking animation -- */
+.shake {
+  animation: shakeAnimation 0.3s 0.3s alternate;
+  /* adjust animation timing as per your preference */
+}
+
+@keyframes shakeAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.07);
+    /* adjust scale factor as per your preference */
+  }
+}
+
+/* -- custom scrollbar -- */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  cursor: grab;
+}
+
+/* Handle active */
+::-webkit-scrollbar-thumb:active {
+  cursor: grabbing;
+}
