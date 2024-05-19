@@ -15,7 +15,7 @@ const Conversations = () => {
       <MyProfileInfo />
       <Search setSearch={setSearch} />
       <div
-        className="flex h-full flex-col gap-2 sm:gap-4 overflow-y-auto pr-2"
+        className="flex h-full flex-col gap-2 overflow-y-auto pr-2 sm:gap-4"
         style={{ scrollbarGutter: "stable" }}
       >
         {conversations

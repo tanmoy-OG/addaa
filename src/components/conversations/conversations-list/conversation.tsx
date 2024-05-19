@@ -13,7 +13,7 @@ const Conversation = ({ conversation }: any) => {
 
   return (
     <div
-      className={`card card-side hover:shadow-lg w-full rounded-btn transition-all hover:-translate-y-2 hover:cursor-pointer ${isSelected ? "card-bordered border-accent bg-info    " : "bg-base-100"}`}
+      className={`card card-side w-full rounded-btn transition-all hover:-translate-y-2 hover:cursor-pointer hover:shadow-lg ${isSelected ? "card-bordered border-accent bg-info    " : "bg-base-100"}`}
       onClick={() => setSelectedConversation(conversation)}
     >
       <figure className="h-20">

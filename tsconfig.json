@@ -36,10 +36,11 @@
         "components/conversations/conversations-list/*"
       ],
       "@/others/*": ["components/others/*"],
+      "@/settings/*": ["components/settings/*"],
       "@/sign-in/*": ["components/sign-in/*"],
       "@/svg/*": ["components/svg/*"],
       "@/ui/*": ["components/ui/*"],
-      // "@/components/*": ["components/*"],
+      "@/components/*": ["components/*"],
       "@/context/*": ["context/*"],
       "@/global/*": ["global/*"],
       "@/hooks/*": ["hooks/*"],
