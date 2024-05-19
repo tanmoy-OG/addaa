@@ -1,5 +1,4 @@
 import SettingsSvg from "@/icons/settings-svg";
-
 import EditProfile from "@/settings/edit-profile";
 import LogOut from "@/settings/log-out";
 

@@ -17,7 +17,7 @@ const SignIn = () => {
   return (
     <div className="absolute top-1/4 flex w-full flex-col justify-center">
       <div
-        className="tabs tabs-lifted tabs-lg mx-4 grid-cols-3 sm:mx-auto"
+        className="tabs tabs-lifted mx-4 grid-cols-3 sm:mx-auto"
         role="tablist"
       >
         <input
@@ -28,7 +28,7 @@ const SignIn = () => {
           role="tab"
           type="radio"
         />
-        <div className="tab-content rounded-box bg-neutral" role="tabpanel">
+        <div className="tab-content rounded-btn bg-neutral" role="tabpanel">
           <LogIn />
         </div>
 
@@ -39,7 +39,7 @@ const SignIn = () => {
           role="tab"
           type="radio"
         />
-        <div className="tab-content rounded-box bg-neutral" role="tabpanel">
+        <div className="tab-content rounded-btn bg-neutral" role="tabpanel">
           <SignUp />
         </div>
       </div>

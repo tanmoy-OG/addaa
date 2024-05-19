@@ -24,7 +24,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="card bg-neutral shadow-xl">
+    <div className="card rounded-btn bg-neutral shadow-xl">
       <form
         className="card-body items-center text-center"
         onSubmit={handleSubmit}
